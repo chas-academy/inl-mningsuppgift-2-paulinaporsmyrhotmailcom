@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 float fahrenheit_to_celsius(float f){
     float c = (f-32) * 5.0 / 9.0;
     return c;
@@ -14,8 +15,8 @@ int main() {
     float temp_f = 100.0;
     float temp_c = 37.0;
 
-    printf("%.1f\n", fahrenheit_to_celsius(temp_f));
-    printf("%.1f\n", celsius_to_fahrenheit(temp_c));
+    printf("%.1f\n", fahrenheit_to_celsius(temp_f));  
+    printf("%.1f\n", celsius_to_fahrenheit(temp_c));  
 
     return 0;
 }
